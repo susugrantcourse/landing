@@ -16,7 +16,7 @@
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>Menu</title>
+            <title>Образовательная программа</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
@@ -28,24 +28,23 @@
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
+            <nuxt-link to="programm1" class="inline-block py-2 px-4 text-black font-bold no-underline">
+              программа один
+            </nuxt-link>
+            
+          </li>
+          <li class="mr-3">
             <a
-              class="inline-block py-2 px-4 text-black font-bold no-underline"
+              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              >Active</a
+              >программа 2</a
             >
           </li>
           <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              >link</a
-            >
-          </li>
-          <li class="mr-3">
-            <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#"
-              >link</a
+              >и три</a
             >
           </li>
         </ul>
@@ -53,7 +52,7 @@
           :class="navActionClassList"
           class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
         >
-          Action
+          участвовать
         </button>
       </div>
     </div>

@@ -2,12 +2,12 @@
   <footer class="bg-white">
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
-        <div class="flex-1 mb-6">
+        <div class="flex-1 mb-6 mr-12">
           <logo />
         </div>
 
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Links</p>
+          <p class="uppercase text-gray-500 md:mb-6">ссылки</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
@@ -20,39 +20,21 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Help</a
+                >Помощь</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Support</a
+                >Поддержка</a
               >
             </li>
           </ul>
         </div>
+
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Terms</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Privacy</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Social</p>
+          <p class="uppercase text-gray-500 md:mb-6">Соцсети</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
@@ -65,40 +47,26 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Linkedin</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Twitter</a
+                >Vk</a
               >
             </li>
           </ul>
         </div>
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Company</p>
+          <p class="uppercase text-gray-500 md:mb-6">Дополнительно</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Official Blog</a
+                >О нас</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >About Us</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Contact</a
+                >Контакты</a
               >
             </li>
           </ul>

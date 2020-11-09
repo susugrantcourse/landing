@@ -5,15 +5,11 @@
     >
       <!--Left Col-->
       <div
-        class="flex flex-col w-full md:w-2/5 justify-center text-center md:items-start md:text-left"
+        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
       >
         
-        <h1 class="text-4xl sm:text-4xl lg:text-5xl my-4 font-bold leading-tight">
-          Институт
-          <br>
-          дополнительного
-          <br>
-          образования
+        <h1 class="my-4 text-6xl font-bold leading-tight">
+          Программа первая
         </h1>
         <p class="leading-normal text-6xl mb-8">
           
@@ -22,13 +18,13 @@
         <button
           class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
         >
-          программа и курсы
+          ЗАРЕГИСТРИРОВАТЬСЯ
         </button>
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center flex content-center justify-center">
         <!-- <img class="w-full md:w-4/5 z-50" src="~/assets/img/yourgu.png" alt /> -->
-        <img class="w-full md:w-7/12 z-10" src="~/assets/img/yourgu_w.png" alt />
+        <img class="rounded-lg w-full md:w-10/12 z-10" src="~/assets/img/old_hipster.jpg" alt />
         <br>
         <br>
         <br>

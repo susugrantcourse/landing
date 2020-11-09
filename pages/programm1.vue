@@ -2,13 +2,11 @@
   <div>
     <hero />
     <features />
-    <teasers />
-    <call-to-action />
   </div>
 </template>
 
 <script>
-import Hero from '@/components/Hero'
+import Hero from '@/components/HeroProgramm'
 import Features from '@/components/Features'
 import Teasers from '@/components/Teasers'
 import Prices from '@/components/Prices'
