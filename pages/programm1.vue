@@ -13,7 +13,7 @@ import Prices from '@/components/Prices'
 import CallToAction from '@/components/CallToAction'
 
 export default {
-  name: 'LandingPage',
+  name: 'программа 1',
   components: {
     hero: Hero,
     features: Features,
