@@ -12,11 +12,13 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest",
-    "test:dev": "jest --watch"
+    "test:dev": "jest --watch",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "nuxt": "^2.14.3",
-    "nuxt-svg-loader": "^1.2.0"
+    "nuxt-svg-loader": "^1.2.0",
+    "push-dir": "^0.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",

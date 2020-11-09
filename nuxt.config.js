@@ -43,13 +43,13 @@ export default {
     whitelist: ['hidden'],
     whitelistPatterns: [/md:w-[1-6]/]
   },
-  generate: {
-    dir: 'docs',
-    subFolders: false
-  },
-  // router: {
-  //   base: '/docs/'
+  // generate: {
+  //   dir: 'docs',
+  //   subFolders: false
   // },
+  router: {
+    base: '/landing/'
+  },
   
   /*
    ** Build configuration
