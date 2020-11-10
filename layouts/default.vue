@@ -32,7 +32,7 @@ html {
 }
 
 .gradient {
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url(/landing/_nuxt/assets/img/building.jpg);
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url(~assets/img/building.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
