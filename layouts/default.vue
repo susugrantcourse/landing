@@ -10,6 +10,17 @@
 import TheHeader from '@/components/TheHeader.vue'
 import TheFooter from '@/components/TheFooter.vue'
 
+import Vue from 'vue'
+// import VueSmoothScroll from 'vue2-smooth-scroll'
+// Vue.use(VueSmoothScroll,{
+//   offset: 0, 
+//   duration: 400,
+//   updateHistory: false,
+// })
+
+import VueScrollactive from 'vue-scrollactive';
+Vue.use(VueScrollactive);
+
 export default {
   components: {
     'the-header': TheHeader,
@@ -32,7 +43,7 @@ html {
 }
 
 .gradient {
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url(~assets/img/building.jpg);
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url(~assets/img/building_1980.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;

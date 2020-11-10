@@ -38,16 +38,26 @@
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                target="_blank"
+                href="https://t.me/obrazovanie_onlinee"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Facebook</a
+                >Telegramm</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                target="_blank"
+                href="https://vk.com/federal_kursi"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Vk</a
+                >VK</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                target="_blank"
+                href="https://vk.com/federal_kursi"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Одноклассники</a
               >
             </li>
           </ul>

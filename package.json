@@ -13,14 +13,13 @@
     "generate": "nuxt generate",
     "test": "jest",
     "test:dev": "jest --watch",
-    "deploy_old": "push-dir --dir=dist --branch=gh-pages",
     "deploy": "nuxt generate && touch dist/CNAME && echo \"2679501.ru\" >> dist/CNAME && push-dir --dir=dist --branch=gh-pages"
   },
   "dependencies": {
-    "gh-pages": "^3.1.0",
     "nuxt": "^2.14.3",
     "nuxt-svg-loader": "^1.2.0",
-    "push-dir": "^0.4.1"
+    "push-dir": "^0.4.1",
+    "vue-scrollactive": "^0.9.3"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
