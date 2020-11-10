@@ -47,9 +47,9 @@ export default {
   //   dir: 'docs',
   //   subFolders: false
   // },
-  router: {
-    base: '/landing/'
-  },
+  // router: {
+  //   base: '/landing/'
+  // },
   
   /*
    ** Build configuration
