@@ -14,7 +14,7 @@
     "test": "jest",
     "test:dev": "jest --watch",
     "deploy_old": "push-dir --dir=dist --branch=gh-pages",
-    "deploy": "gh-pages -d dist"
+    "deploy": "nuxt generate && touch dist/CNAME && echo \"2679501.ru\" >> dist/CNAME && push-dir --dir=dist --branch=gh-pages"
   },
   "dependencies": {
     "gh-pages": "^3.1.0",
