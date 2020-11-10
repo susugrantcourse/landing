@@ -1,37 +1,31 @@
 <template>
-  <div class="pt-24 pb-24">
+  <div class="pt-24 pb-24" style="height:600px">
     <div
       class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
     >
-      <!--Left Col-->
       <div
-        class="flex flex-col w-full md:w-2/5 justify-center text-center md:items-start md:text-left"
+        style="min-height: 50vh"
+        class="flex relative flex-col w-full md:w-3/5"
       >
-        
-        <h1 class="text-4xl sm:text-4xl lg:text-5xl my-4 font-bold leading-tight">
-          Институт
+      <div class="absolute" style="bottom:-4em">
+        <h1 class="text-2xl lg:text-2xl my-4 leading-tight"
+        >Федеральные курсы повышения квалификации</h1>
+        <h2 class="leading-normal text-4xl font-bold">
+          Образовательный проект: 
           <br>
-          дополнительного
-          <br>
-          образования
-        </h1>
-        <p class="leading-normal text-6xl mb-8">
-          
-        </p>
-
+          «Технологии реализации программ непрерывного образования»
+        </h2>
+      </div>
+      </div>
+      
+      <div
+        class="w-full md:w-1/5 py-6 text-center flex content-center justify-center"
+      >
         <button
           class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
         >
-          программа и курсы
+          ЗАРЕГИСТРИРОВАТЬСЯ
         </button>
-      </div>
-      <!--Right Col-->
-      <div class="w-full md:w-3/5 py-6 text-center flex content-center justify-center">
-        <!-- <img class="w-full md:w-4/5 z-50" src="~/assets/img/yourgu.png" alt /> -->
-        <img class="w-full md:w-7/12 z-10" src="~/assets/img/yourgu_w.png" alt />
-        <br>
-        <br>
-        <br>
       </div>
     </div>
   </div>
@@ -42,3 +36,7 @@ export default {
   name: 'HeroContent'
 }
 </script>
+
+<style >
+
+</style>

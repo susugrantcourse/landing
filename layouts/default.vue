@@ -32,7 +32,9 @@ html {
 }
 
 .gradient {
-  /* background: linear-gradient(90deg, #6200ee 0%, #03dac5 100%);  */
-  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url(/landing/_nuxt/assets/img/building.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 </style>
