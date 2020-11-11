@@ -18,7 +18,7 @@
         <div class="w-full md:w-5/12 lg:w-4/12 px-6 sm:p-6 mt-6">
           <div class="align-middle">
             <h3 class="text-2xl text-gray-800 leading-7 mb-5">
-              Институт имеет статус <span class="text-orange-700">национального исследовательского университета</span>
+              «ЮУрГУ» имеет статус <span class="text-orange-700">национального исследовательского университета</span>
             </h3>
             <p class="text-gray-600 mb-8">
               
@@ -27,14 +27,7 @@
           </div>
         </div>
       </div>
-      <section 
-      class="bg-white border-b py-8"
-      id="about_programm"
-      >
-      </section>
-      <h2 class="w-full my-2 mt-8 text-5xl font-bold leading-tight text-center text-gray-800">
-        О программе
-      </h2>
+
       <div class="flex flex-wrap flex-col sm:flex-row">
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <img class="rounded" src="~assets/img/student1.jpg" alt="" />
@@ -57,11 +50,20 @@
           </div>
         </div>
       </div>
+      <section 
+      class="bg-white border-b py-8"
+      id="about_programm"
+      >
+      </section>
+      <h2 class="w-full my-2 mt-8 text-5xl font-bold leading-tight text-center text-gray-800">
+        О программе
+      </h2>
       <div class="flex flex-wrap flex-col sm:flex-row">
         <div class="w-full sm:w-2/5 p-6 mt-6">
           <div class="align-middle">
              <h3 class="text-2xl text-gray-800 leading-7 mb-5">
-              Результаты программы
+               Новые возможности для каждого
+              <!-- <span class="text-orange-700">Результаты</span> программы -->
             </h3>
             
             <p class="text-gray-600 mb-8">
@@ -84,16 +86,7 @@
 </template>
 
 <script>
-import FeatureCenter from '@/components/FeatureCenter'
-import FeatureRight from '@/components/FeatureRight'
-import FeatureLeft from '@/components/FeatureLeft'
-
 export default {
   name: 'Features',
-  components: {
-    'feature-center': FeatureCenter,
-    'feature-right': FeatureRight,
-    'feature-left': FeatureLeft
-  }
 }
 </script>
