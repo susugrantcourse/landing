@@ -1,0 +1,51 @@
+<template>
+  <div class="leading-normal tracking-normal text-white">
+    <the-header />
+    <nuxt />
+    <the-footer />
+  </div>
+</template>
+
+<script>
+import TheHeaderOther from '@/components/TheHeaderOther.vue'
+import TheFooterOther from '@/components/TheFooterOther.vue'
+
+import Vue from 'vue'
+// import VueSmoothScroll from 'vue2-smooth-scroll'
+// Vue.use(VueSmoothScroll,{
+//   offset: 0, 
+//   duration: 400,
+//   updateHistory: false,
+// })
+
+import VueScrollactive from 'vue-scrollactive';
+Vue.use(VueScrollactive);
+
+export default {
+  components: {
+    'the-header': TheHeaderOther,
+    'the-footer': TheFooterOther
+  }
+}
+</script>
+
+<style>
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.gradient {
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url(~assets/img/building_1980.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+</style>

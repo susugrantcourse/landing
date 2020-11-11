@@ -29,24 +29,24 @@
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <a
+              <nuxt-link
                 class="scrollactive-item inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                href="#about_institute"
-                >Об университете</a
+                to="/#about_institute"
+                >Об университете</nuxt-link
               >
             </li>
             <li class="mr-3">
-              <a 
-                href="#about_programm"
+              <nuxt-link 
+                to="/#about_programm"
                 class="scrollactive-item inline-block py-2 px-4 text-black no-underline">
                 О программe
-              </a>
+              </nuxt-link>
             </li>
             <li class="mr-3">
-              <a
+              <nuxt-link
                 class="scrollactive-item inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                href="#choose_programm"
-                >Выбрать программу</a
+                to="/#choose_programm"
+                >Выбрать программу</nuxt-link
               >
             </li>
         </ul>
@@ -81,7 +81,7 @@ export default {
   },
   computed: {
     isSticky() {
-      return this.scrollY > 10
+      return true //this.scrollY > 10
     },
     headerClassList() {
       return this.isSticky ? 'bg-white shadow' : ''

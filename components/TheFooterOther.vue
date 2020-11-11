@@ -96,7 +96,7 @@
 import Logo from '@/components/Logo'
 
 export default {
-  name: 'TheFooter',
+  name: 'TheFooterOther',
   components: {
     logo: Logo
   }
