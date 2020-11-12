@@ -15,7 +15,7 @@
       <teaser-column :rows="2" 
         action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35391"
-        dlink="/docs/Стажировка.pdf"
+        dlink="/_nuxt/docs/Стажировка.pdf"
         >
         <!-- <template v-slot:overline>Программа 1</template> -->
         <template v-slot:headline>кратное описание</template>
@@ -27,7 +27,7 @@
       <teaser-column :rows="2" 
         action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35390"
-        dlink="/docs/Стажировка.pdf"
+        dlink="/_nuxt/docs/Стажировка.pdf"
         >
         <!-- <template v-slot:overline>Программа 2</template> -->
         <template v-slot:headline>кратное описание</template>
@@ -39,7 +39,7 @@
       <teaser-column :rows="2" 
         action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35389"
-        dlink="/docs/Стажировка.pdf"
+        dlink="/_nuxt/docs/Стажировка.pdf"
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>кратное описание</template>
@@ -51,7 +51,7 @@
       <teaser-column :rows="2" 
         action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35388"
-        dlink="/docs/Стажировка.pdf"
+        dlink="/_nuxt/docs/Стажировка.pdf"
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>кратное описание</template>
@@ -63,7 +63,7 @@
       <teaser-column :rows="2" 
         action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35387"
-        dlink="/docs/Стажировка.pdf"
+        dlink="/_nuxt/docs/Стажировка.pdf"
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>кратное описание</template>
@@ -75,7 +75,7 @@
       <teaser-column :rows="2" 
         action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35386"
-        dlink="/docs/Стажировка.pdf"
+        dlink="/_nuxt/docs/Стажировка.pdf"
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>кратное описание</template>
@@ -87,7 +87,7 @@
       <teaser-column :rows="2" 
         action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35385"
-        dlink="/docs/Стажировка.pdf"
+        dlink="/_nuxt/docs/Стажировка.pdf"
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>кратное описание</template>
