@@ -51,12 +51,13 @@
             </li>
         </ul>
         
-        <button
+        <a
+          href="#choose_programm"
           :class="navActionClassList"
-          class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
+          class="scrollactive-item mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
         >
           участвовать
-        </button>
+        </a>
       </div>
       
     </div>

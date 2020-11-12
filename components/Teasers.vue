@@ -12,24 +12,84 @@
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
         ></div>
       </div>
-      <teaser-column :rows="3" action="ЗАРЕГИСТРИРОВАТЬСЯ">
-        <template v-slot:overline>Программа 1</template>
+      <teaser-column :rows="2" 
+        action="ЗАРЕГИСТРИРОВАТЬСЯ"
+        plink="https://catdo.susu.ru/checkout/?add-to-cart=35391"
+        dlink="/docs/Стажировка.pdf"
+        >
+        <!-- <template v-slot:overline>Программа 1</template> -->
         <template v-slot:headline>кратное описание</template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at
           ipsum eu nunc commodo posuere et sit amet ligula.</template
         >
       </teaser-column>
-      <teaser-column :rows="3" action="ЗАРЕГИСТРИРОВАТЬСЯ">
-        <template v-slot:overline>Программа 2</template>
+      <teaser-column :rows="2" 
+        action="ЗАРЕГИСТРИРОВАТЬСЯ"
+        plink="https://catdo.susu.ru/checkout/?add-to-cart=35390"
+        dlink="/docs/Стажировка.pdf"
+        >
+        <!-- <template v-slot:overline>Программа 2</template> -->
         <template v-slot:headline>кратное описание</template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at
           ipsum eu nunc commodo posuere et sit amet ligula.</template
         >
       </teaser-column>
-      <teaser-column :rows="3" action="ЗАРЕГИСТРИРОВАТЬСЯ">
-        <template v-slot:overline>Программа 3</template>
+      <teaser-column :rows="2" 
+        action="ЗАРЕГИСТРИРОВАТЬСЯ"
+        plink="https://catdo.susu.ru/checkout/?add-to-cart=35389"
+        dlink="/docs/Стажировка.pdf"
+        >
+        <!-- <template v-slot:overline>Программа 3</template> -->
+        <template v-slot:headline>кратное описание</template>
+        <template v-slot:content
+          >кратное описание, consectetur adipiscing elit. Aliquam at
+          ipsum eu nunc commodo posuere et sit amet ligula.</template
+        >
+      </teaser-column>
+      <teaser-column :rows="2" 
+        action="ЗАРЕГИСТРИРОВАТЬСЯ"
+        plink="https://catdo.susu.ru/checkout/?add-to-cart=35388"
+        dlink="/docs/Стажировка.pdf"
+        >
+        <!-- <template v-slot:overline>Программа 3</template> -->
+        <template v-slot:headline>кратное описание</template>
+        <template v-slot:content
+          >кратное описание, consectetur adipiscing elit. Aliquam at
+          ipsum eu nunc commodo posuere et sit amet ligula.</template
+        >
+      </teaser-column>
+      <teaser-column :rows="2" 
+        action="ЗАРЕГИСТРИРОВАТЬСЯ"
+        plink="https://catdo.susu.ru/checkout/?add-to-cart=35387"
+        dlink="/docs/Стажировка.pdf"
+        >
+        <!-- <template v-slot:overline>Программа 3</template> -->
+        <template v-slot:headline>кратное описание</template>
+        <template v-slot:content
+          >кратное описание, consectetur adipiscing elit. Aliquam at
+          ipsum eu nunc commodo posuere et sit amet ligula.</template
+        >
+      </teaser-column>
+      <teaser-column :rows="2" 
+        action="ЗАРЕГИСТРИРОВАТЬСЯ"
+        plink="https://catdo.susu.ru/checkout/?add-to-cart=35386"
+        dlink="/docs/Стажировка.pdf"
+        >
+        <!-- <template v-slot:overline>Программа 3</template> -->
+        <template v-slot:headline>кратное описание</template>
+        <template v-slot:content
+          >кратное описание, consectetur adipiscing elit. Aliquam at
+          ipsum eu nunc commodo posuere et sit amet ligula.</template
+        >
+      </teaser-column>
+      <teaser-column :rows="2" 
+        action="ЗАРЕГИСТРИРОВАТЬСЯ"
+        plink="https://catdo.susu.ru/checkout/?add-to-cart=35385"
+        dlink="/docs/Стажировка.pdf"
+        >
+        <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>кратное описание</template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at

@@ -22,20 +22,33 @@
       v-if="renderAction"
       class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
     >
-      <div class="flex items-center justify-end">
-        <button
-          class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          @click.prevent="onClick"
+      <div class="flex items-center justify-between flex-wrap">
+        <a
+          target="_blank"
+          :href="dlink"
+          class="mx-auto lg:mx-0 text-black font-bold my-6 px-4"
         >
-          {{ action }}
-        </button>
+        <div class="flex justify-start items-center flex-wrap">
+          <span class="w-10 inline-block mr-2"><pdf /></span>
+          <span>Скачать аннотацию</span>
+        </div>
+        </a>
+        <a
+          target="_blank"
+          class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+          :href="plink"
+        >
+          Участвовать
+        </a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import pdf from "@/components/pdf";
 export default {
+  components:{pdf},
   name: 'TeaserColumn',
   props: {
     rows: {
@@ -46,6 +59,14 @@ export default {
       }
     },
     action: {
+      type: String,
+      default: ''
+    },
+    plink: {
+      type: String,
+      default: ''
+    },
+    dlink: {
       type: String,
       default: ''
     }
