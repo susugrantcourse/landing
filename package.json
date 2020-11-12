@@ -13,7 +13,7 @@
     "generate": "nuxt generate",
     "test": "jest",
     "test:dev": "jest --watch",
-    "deploy": "nuxt generate && touch dist/CNAME && echo \"2679501.ru\" >> dist/CNAME && cp docs dist/docs/ && push-dir --dir=dist --branch=gh-pages --clean"
+    "deploy": "nuxt generate && touch dist/CNAME && echo \"2679501.ru\" >> dist/CNAME && mkdir dist/docs && cp -r docs dist/docs && push-dir --dir=dist --branch=gh-pages --clean"
   },
   "dependencies": {
     "nuxt": "^2.14.3",
