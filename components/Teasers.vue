@@ -7,11 +7,16 @@
       >
         Выбрать программу
       </h2>
-      <div class="w-full mb-4">
+      <h3
+        class="w-full my-2 text-2xl leading-tight text-center"
+      >
+        <a class="text-red-500 border-b" target="_blank" href="/_nuxt/docs/intruc.pdf">Инструкция для регистрации в программе</a>
+      </h3>
+      <!-- <div class="w-full mb-4">
         <div
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
         ></div>
-      </div>
+      </div> -->
       <teaser-column :rows="2" 
         action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35391"
@@ -19,7 +24,7 @@
         >
         <!-- <template v-slot:overline>Программа 1</template> -->
         <template v-slot:headline>
-          Реализация программ непрерывного образования для специалистов секторов экономики, значимых для региона (в форме стажировки) (32 
+          Реализация программ непрерывного образования для специалистов секторов экономики, значимых для региона (в форме стажировки) 
         </template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at
@@ -33,7 +38,7 @@
         >
         <!-- <template v-slot:overline>Программа 2</template> -->
         <template v-slot:headline>
-          Цифровые компетенции в профессиональной педагогической деятельности (72 час., грант, 2020) 
+          Цифровые компетенции в профессиональной педагогической деятельности
         </template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at
@@ -47,7 +52,7 @@
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>
-          Наставничество в системе непрерывного образования взрослых (72 час., грант, 2020)
+          Наставничество в системе непрерывного образования взрослых 
         </template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at
@@ -61,7 +66,7 @@
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>
-          Цифровая трансформация дополнительного профессионального образования (72 час., грант, 2020)
+          Цифровая трансформация дополнительного профессионального образования
         </template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at
@@ -75,7 +80,7 @@
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>
-          Управление персоналом организации, реализующей дополнительные профессиональные программы (72 час., грант, 2020) 
+          Управление персоналом организации, реализующей дополнительные профессиональные программы
         </template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at
@@ -89,7 +94,7 @@
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>
-          Модели и технологии образования взрослых (72 час., грант, 2020) 
+          Модели и технологии образования взрослых
         </template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at
@@ -103,7 +108,7 @@
         >
         <!-- <template v-slot:overline>Программа 3</template> -->
         <template v-slot:headline>
-          Разработка и реализация дополнительных профессиональных программ для инвалидов и лиц с ограниченными возможностями здоровья (72 
+          Разработка и реализация дополнительных профессиональных программ для инвалидов и лиц с ограниченными возможностями здоровья 
         </template>
         <template v-slot:content
           >кратное описание, consectetur adipiscing elit. Aliquam at

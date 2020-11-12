@@ -2,7 +2,7 @@
   <div class="leading-normal tracking-normal text-white gradient">
     <the-header />
     <nuxt />
-    <the-footer />
+    <!-- <the-footer /> -->
   </div>
 </template>
 

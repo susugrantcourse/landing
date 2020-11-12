@@ -7,8 +7,9 @@
         Контакты
       </h1>
 
-      <div class="text-1xl text-center text-blue-500 mt-2 underline">
+      <div class="text-1xl text-center mt-2">
         <a
+          class="text-blue-500 border-b"
           target="_blank"
           href="https://www.susu.ru/ru/structure/institut-dopolnitelnogo-obrazovaniya"
           >Институт доп Образования Юургу</a
@@ -21,18 +22,23 @@
           <iframe
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A636bf32d7f2262bfb65b5d0a9bfd66d12d9466d53f71e0ada2b31b2e1e9b52e7&amp;source=constructor"
             width="100%"
-            height="300"
+            height="400"
             frameborder="0"
           ></iframe>
         </div>
         <div class="w-full md:w-5/12 lg:w-5/12 px-6 sm:p-6 mt-6">
           <div class="align-middle text-gray-700">
-            <b>Телефон</b>:<br /><a href="tel:+73512679501">+7 351 2679501</a>
+            <b>Телефон</b>:<br /><a class="text-blue-500 border-b" href="tel:+73512679501">+7 351 2679501</a>
             <br />
             <br />
             <b>Почта</b>:<br />
-            <a href="mailto:2679501@mail.ru">2679501@mail.ru</a> или
-            <a href="mailto:ido@susu.ru">ido@susu.ru</a>
+            <a class="text-blue-500 border-b" href="mailto:2679501@mail.ru">2679501@mail.ru</a> или
+            <a class="text-blue-500 border-b" href="mailto:ido@susu.ru">ido@susu.ru</a>
+            <br />
+            <br />
+
+            <b>Группа Вконтакте</b>:<br />
+            <a class="text-blue-500 border-b" href="https://vk.com/ido_susu">2679501@mail.ru</a>
             <br />
             <br />
             <b>Контактные лица:</b>
@@ -41,17 +47,17 @@
               <li>
                 Павловская Марина Сергеевна
                 <br />
-                <a href="tel:+73512679272">+7 351 267 9272</a>
+                <a class="text-blue-500 border-b" href="tel:+73512679272">+7 351 267 9272</a>
               </li>
               <li>
                 Маклецова Елена Александровна
                 <br />
-                <a href="tel:+73512679501">+7 351 267 9501</a>
+                <a class="text-blue-500 border-b" href="tel:+73512679501">+7 351 267 9501</a>
               </li>
               <li>
                 Буртовая Светлана Николаевна
                 <br />
-                <a href="tel:+73512679501">+7 351 267 9501</a>
+                <a class="text-blue-500 border-b" href="tel:+73512679501">+7 351 267 9501</a>
               </li>
             </ul>
           </div>
