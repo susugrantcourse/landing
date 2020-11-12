@@ -52,7 +52,7 @@
       </div>
       <section 
       class="bg-white border-b py-8"
-      id="about_programm"
+      id="about_project"
       >
       </section>
       <h2 class="w-full my-2 mt-8 text-5xl font-bold leading-tight text-center text-gray-800">

@@ -37,9 +37,9 @@
             </li>
             <li class="mr-3">
               <a 
-                href="#about_programm"
+                href="#about_project"
                 class="scrollactive-item inline-block py-2 px-4 text-black no-underline">
-                О программe
+                О проекте
               </a>
             </li>
             <li class="mr-3">

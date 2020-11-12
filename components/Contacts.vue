@@ -12,7 +12,7 @@
           class="text-blue-500 border-b"
           target="_blank"
           href="https://www.susu.ru/ru/structure/institut-dopolnitelnogo-obrazovaniya"
-          >Институт доп Образования Юургу</a
+          >Институт дополнительного Образования ФГАОУ ВО ЮУрГУ (НИУ)</a
         >
       </div>
       <div class="flex flex-wrap flex-col sm:flex-row md:mb-2">
