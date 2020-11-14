@@ -37,8 +37,8 @@
             <br />
             <br />
 
-            <b>Группа Вконтакте</b>:<br />
-            <a class="text-blue-500 border-b" href="https://vk.com/ido_susu">2679501@mail.ru</a>
+            <b>Группа ВКонтакте</b>:<br />
+            <a target="_blank" href="https://vk.com/ido_susu"><img width="180" src="~assets/img/ido_susu.png" alt="Группа ВКонтакте"></a>
             <br />
             <br />
             <b>Контактные лица:</b>

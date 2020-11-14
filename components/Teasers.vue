@@ -3,22 +3,16 @@
     <br>
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h2
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
+        class="w-full my-2 text-3xl font-bold leading-tight text-center text-gray-800"
       >
-        Выбрать программу
+        Программы полностью субсидируются из средств федерального бюджета
       </h2>
       <h3
         class="w-full my-2 text-2xl leading-tight text-center"
       >
         <a class="text-red-500 border-b" target="_blank" href="/_nuxt/docs/intruc.pdf">Инструкция для регистрации в программе</a>
       </h3>
-      <!-- <div class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
-      </div> -->
       <teaser-column :rows="2" 
-        action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35391"
         dlink="/_nuxt/docs/Стажировка.pdf"
         >
@@ -32,7 +26,6 @@
         >
       </teaser-column>
       <teaser-column :rows="2" 
-        action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35390"
         dlink="/_nuxt/docs/Цифровые компетенции в профессиональной пед деятельности.pdf"
         >
@@ -46,7 +39,6 @@
         >
       </teaser-column>
       <teaser-column :rows="2" 
-        action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35389"
         dlink="/_nuxt/docs/Наставничество.pdf"
         >
@@ -60,7 +52,6 @@
         >
       </teaser-column>
       <teaser-column :rows="2" 
-        action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35388"
         dlink="/_nuxt/docs/Цифровая трансформация.pdf"
         >
@@ -74,7 +65,6 @@
         >
       </teaser-column>
       <teaser-column :rows="2" 
-        action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35387"
         dlink="/_nuxt/docs/Управление персоналом.pdf"
         >
@@ -88,7 +78,6 @@
         >
       </teaser-column>
       <teaser-column :rows="2" 
-        action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35386"
         dlink="/_nuxt/docs/Модели и технологии образования взрослых.pdf"
         >
@@ -102,7 +91,6 @@
         >
       </teaser-column>
       <teaser-column :rows="2" 
-        action="ЗАРЕГИСТРИРОВАТЬСЯ"
         plink="https://catdo.susu.ru/checkout/?add-to-cart=35385"
         dlink="/_nuxt/docs/ОВЗ.pdf"
         >

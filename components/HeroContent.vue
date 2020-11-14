@@ -5,30 +5,30 @@
     >
       <div
         style="min-height: 50vh"
-        class="flex relative flex-col w-full md:w-3/5"
+        class="flex relative flex-col w-full md:w-4/5"
       >
         <div class="absolute" style="bottom: -5em">
           <h1
             class="text-2xl lg:text-2xl my-4 leading-tight font-bold sm:font-normal"
           >
-            Федеральные курсы повышения квалификации
+            Непрерывность профессионального развития — залог успешной карьеры
           </h1>
           <h2
             class="leading-tight sm:leading-normal text-2xl sm:text-3xl md:text-4xl sm:font-bold"
           >
-            Образовательный проект:
-            <br />
-            «Технологии реализации программ непрерывного образования»
+            Институт дополнительного образования ЮУрГУ реализует концепцию 
+            <br>
+            «Обучение в течении всей жизни»
           </h2>
 
-          <br />
+          <!-- <br />
           <br />
           <a
             href="#choose_programm"
             class="mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
           >
             Выбрать программу
-          </a>
+          </a> -->
         </div>
       </div>
       <!--       

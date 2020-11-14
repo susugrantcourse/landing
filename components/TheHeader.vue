@@ -49,13 +49,13 @@
                 >Выбрать программу</a
               >
             </li>
-            <li class="mr-3">
+            <!-- <li class="mr-3">
               <a
                 class="scrollactive-item inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                 href="#who_can"
                 >Кто может принять участие</a
               >
-            </li>
+            </li> -->
             <li class="mr-3">
               <a
                 class="scrollactive-item inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"

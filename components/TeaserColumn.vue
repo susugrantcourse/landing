@@ -10,16 +10,15 @@
         <p class="w-full text-gray-600 text-xs md:text-sm px-6 pt-2">
           <slot name="overline" />
         </p>
-        <div class="w-full font-bold text-xl text-gray-800 px-6 pt-5">
+        <div class="w-full text-xl text-gray-800 px-6 pt-5">
           <slot name="headline" />
         </div>
         <p class="text-gray-800 text-base px-6 mb-5">
-          <slot name="content" />
+          <!-- <slot name="content" /> -->
         </p>
       </a>
     </div>
     <div
-      v-if="renderAction"
       class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
     >
       <div class="flex items-center justify-between flex-wrap">
@@ -35,10 +34,10 @@
         </a>
         <a
           target="_blank"
-          class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+          class="mx-auto hover:shadow-xl lg:mx-0 gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
           :href="plink"
         >
-          Участвовать
+          Учиться
         </a>
       </div>
     </div>
