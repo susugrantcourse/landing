@@ -29,15 +29,15 @@
         >
         <div class="flex justify-start items-center flex-wrap">
           <span class="w-10 inline-block mr-2"><pdf /></span>
-          <span>Скачать аннотацию</span>
+          <span>О программе</span>
         </div>
         </a>
         <a
           target="_blank"
-          class="mx-auto hover:shadow-xl lg:mx-0 gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+          class="transition duration-700 ease-in-out transform hover:scale-125 mx-auto hover:shadow-xl lg:mx-0 bg-red-600 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
           :href="plink"
         >
-          Учиться
+          Начать учиться
         </a>
       </div>
     </div>
