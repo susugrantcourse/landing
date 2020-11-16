@@ -16,6 +16,7 @@
     "deploy": "nuxt generate && touch dist/CNAME && echo \"2679501.ru\" >> dist/CNAME && mkdir dist/_nuxt/docs && cp docs/* dist/_nuxt/docs/ && push-dir --dir=dist --branch=gh-pages --clean"
   },
   "dependencies": {
+    "@nuxtjs/yandex-metrika": "^1.3.0",
     "nuxt": "^2.14.3",
     "nuxt-svg-loader": "^1.2.0",
     "push-dir": "^0.4.1",

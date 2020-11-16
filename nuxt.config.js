@@ -38,7 +38,18 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-svg-loader'],
+  modules: [
+    'nuxt-svg-loader',
+    '@nuxtjs/yandex-metrika',
+  ],
+  yandexMetrika: {
+    id: '69449760',
+    webvisor: true,
+    clickmap:true,
+    useCDN:false,
+    trackLinks:true,
+    accurateTrackBounce:true,
+  },
   purgeCSS: {
     whitelist: ['hidden'],
     whitelistPatterns: [/md:w-[1-6]/]
