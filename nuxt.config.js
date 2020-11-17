@@ -41,7 +41,26 @@ export default {
   modules: [
     'nuxt-svg-loader',
     '@nuxtjs/yandex-metrika',
+    '@nuxtjs/google-gtag'
   ],
+  'google-gtag': {
+    id: 'G-7YF5CJ7SM0',
+    config: {
+      anonymize_ip: true, // anonymize IP 
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      // linker: {
+      //   domains: ['domain.com','domain.org']
+      // }
+    },
+    // debug: true, // enable to track in dev mode
+    // disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+    // additionalAccounts: [{
+    //   id: 'AW-XXXX-XX', // required if you are adding additional accounts
+    //   config: {
+    //     send_page_view: false // optional configurations
+    //   }
+    // }]
+  },
   yandexMetrika: {
     id: '69449760',
     webvisor: true,
